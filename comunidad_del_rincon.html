@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> RL | Comunidad</title>
+        <link href="css/estilos.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    </head>
+    <body>
+        <header>
+          <div id="logo">
+            <a href="index.html">
+              <img src="imagenes/logo.png" alt="Logo del sitio" />
+            </a>
+          </div>
+           <h1>Comunidad del rincón</h1>
+        </header>
+    
+        <main>
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="sobre_el_rincon.html">
+                  <img src="imagenes/el_rincon.png" alt="Nosotros" />
+                  SOBRE EL RINCÓN
+                </a>
+              </li>
+              <li>
+                <a href="el_estante_literario.html">
+                  <img src="imagenes/el_estante.png" alt="Literatura" />
+                  EL ESTANTE LITERARIO
+                </a>
+              </li>
+              <li>
+                <a href="palacios_literarios.html">
+                  <img src="imagenes/cultura.png" alt="Cultura" />
+                  PALACIOS LITERARIOS
+                </a>
+              </li>
+              <li>
+                <a href="comunidad_del_rincon.html">
+                  <img src="imagenes/comunidad.png" alt="Comunidad literaria" />
+                  COMUNIDAD DEL RINCÓN
+                </a>
+              </li>
+              <li>
+                <a href="mi_propio_estante.html">
+                  <img src="imagenes/mis_libros.png" alt="Mis libros" />
+                  MI PROPIO ESTANTE
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </main>
+
+<body>
+  <section class="seccion-chat">
+    <h2>¡Compartamos juntos!</h2>
+    <div id="chat-log"></div>
+    <form id="chat-form">
+      <input type="text" id="mensaje" placeholder="Escribe tu mensaje..." required>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script>
+    const chatForm = document.getElementById('chat-form');
+    const chatLog = document.getElementById('chat-log');
+    const inputMensaje = document.getElementById('mensaje');
+
+    chatForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const texto = inputMensaje.value.trim();
+      if (texto) {
+        const div = document.createElement('div');
+        div.className = 'mensaje usuario';
+        div.textContent = texto;
+        chatLog.appendChild(div);
+        chatLog.scrollTop = chatLog.scrollHeight;
+        inputMensaje.value = '';
+      }
+    });
+  </script>
+
+
+     <footer>
+      <div id="contacto">
+        <a href="contacto.html">
+          <img src="imagenes/contacto_rincon.png" alt="Contáctanos" />
+        </a>
+      </div>
+      <h4>
+        ¿Tenés alguna sugerencia, o te interesa que publiquemos algún artículo o escrito tuyo?
+      </h4>
+    <div id="contactanos">
+      <a href="contacto.html">
+        ¡No dudes en contactarnos!
+      </a>
+    </div>
+    </footer>
+
+      </body>
+    </html>
+    

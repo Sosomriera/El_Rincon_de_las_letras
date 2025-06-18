@@ -1,0 +1,1097 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header h1 {
+  margin-left: 10rem;
+  font-size: 1.5rem;
+  flex: 1;
+  text-align: right;
+  margin: 0;
+}
+body{
+    background-color: #f9f0e5;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.3;
+    padding: 0.5em;
+
+    #pagina-contacto {
+        background-image: url("../imagenes/contacto_rincon.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+        min-height: 100vh;
+      }
+}
+
+p{
+    font-size: .8rem;
+}
+
+h1{
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+  }
+
+  h4{
+    font-size: .8rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  header,
+footer {
+  background-color: #a1a87f;
+  padding: 0.3em;
+  margin-top: 0em;
+  text-align: center;
+  color: #f9f0e5;
+  font-size: smaller;
+}  
+#legales p{
+  font-size: 0.5rem;
+ margin: 0 auto;
+}
+#alcivar{
+  background-color: #a1a87f;
+  padding: 1em;
+  margin-top: 0em;
+  text-align: center;
+  color: #f9f0e5;
+  font-size: smaller;
+  h2{
+ font-size: 1em;
+  } 
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 50px;
+    align-content: center;
+    margin: 0 auto;
+  }
+}
+#logo {
+    width: 70px;
+    margin-left: 0;
+  }
+
+  .main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    justify-content: center;
+    list-style: none;
+    padding: 0.5em 0;
+    margin-block: .5em;
+  }
+
+  .main-nav li img {
+    width: 90px;
+    height: auto;
+    margin: 0 auto 0.5em;
+  }
+
+  .main-nav li {
+    width: 110px;
+    text-align: center;
+    font-size: 0.60rem;
+    color: #333;
+    background-color: transparent;
+  }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 15px;
+      }
+
+      #recomendaciones li{
+        background-color: #a1a87f;
+        margin-block: .5em;
+        width:fit-content;
+        padding: .75em;
+        border-radius: .80em;
+        display: inline-block;
+        margin-right: 8px;
+        text-decoration: none;
+        font-size: 0.7rem;
+        color:#f9f0e5 ;
+        a{
+          color:#f9f0e5 
+        }
+    }  
+
+      section {
+        margin-bottom: .5em;
+      }
+    
+
+  #citas {
+    margin-top: 0em;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: .8rem;;
+  }
+
+  #contacto {
+    margin-bottom: 0em;
+    text-align: center;
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #contactanos{
+  font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    background-color:#f9f0e5;
+    margin-bottom: 0.5em;
+    font-size: .75rem;;
+    width:fit-content;
+    padding: .75em;
+    border-radius: .80em;
+    align-self: center;
+    margin-block: .5em;
+    display: inline-block;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color:#a1a87f;
+      }
+}
+
+#bloque-gato-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    align-content: stretch;
+    gap: .5em;
+    margin-top: 1.5em;
+  }
+  
+  #gato{ 
+    max-width: 160px;
+    height:auto;
+  }
+  
+  #intro-lista {
+    list-style: disc;
+    margin-left: 1em;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 2em;
+  }
+
+  #texto{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.3;
+    font-size: 1rem;
+      }
+
+  #librerias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #f9f0e5;
+    border-radius: 0.75em;
+    padding: .7em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin: 2em;
+    text-align: justify;
+  }
+  
+  #shakespeare {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: .80em;
+  }
+  
+  #company, #notre {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #company {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #ateneo {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #grand, #splendid {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #grand {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #lello {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #livraria, #oporto {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #livraria {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #daunt {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #books, #londres {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #books {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #dominican {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #dominico, #dominicano {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #dominico {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #city {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #lights, #publishers {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #lights {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #pendulo {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #libro, #cafe {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #libro {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #agua {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #alta, #caos {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #alta {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #dominicanen {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #domi, #domingo {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #domi {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+  
+  #primera {
+    width: 250px;
+    height: auto;
+    border-radius: 0.5em;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #aire, #libre {
+    margin-top: 0em;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  #aire {
+    font-weight: 700;
+    margin-bottom: 0em;
+    color: #000;
+  }
+
+  #generos li {
+    background-color: #a1a87f;
+    width: fit-content;
+    padding: 1.5em;
+    border-radius: 0.8em;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #f9f0e5;
+    margin: 0 auto 1em auto; 
+    height: auto;
+  }
+
+#click {
+    text-align: center;
+    width: 90%;
+    height: auto;
+    gap: 1.1em;
+    margin: 1em auto;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-size: .8rem;
+    
+}
+.palacios_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.info_palacios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fondo-estante {
+  background-image: url("imagenes/estante.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.alcivar{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(3, 33,33% );
+  grid-template-rows: auto;
+  grid-template-areas: "item item2 item3";
+  place-items: center center;
+}
+
+.item{
+font-size: 15px;
+font-weight: 800;
+}
+.item2{
+font-size: 15px;
+font-weight: 800;
+}
+.item3{
+font-size: 15px;
+font-weight: 800;
+}
+
+#generos a{
+  color:#f9f0e5;
+}
+
+#estante{
+ display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+  justify-content: center;
+    gap: .5em;
+    margin-top: 1.5em;
+}
+.best_books {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+ #sally {
+    width: 330px;
+    height: auto;
+    border-radius:.80em;
+    display: flex;
+    align-self: center;
+  }
+.info_books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   text-align: justify;
+    width: 90%;
+    height: auto;
+    margin: .1em auto;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-size: .8rem;
+}
+.info_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 90%;
+    height: auto;
+    margin: .1em auto;
+    font-weight: 400;
+    color: #3a3a3a;
+    font-size: .8rem;
+}
+
+.formulario-contacto {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contacto label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Nunito", sans-serif;
+}
+
+.formulario-contacto button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #a1a87f;
+  color: #f9f0e5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario-contacto button:hover {
+  background-color: #8e956c;
+}
+
+.form-subida {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 450px;
+      margin: 2em auto;
+      text-align: center;
+    }
+
+    .form-subida label {
+      font-weight: bold;
+      color: #3a3a3a;
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    .form-subida input[type="file"] {
+      padding: 0.4em;
+      width: 100%;
+      border: 2px dashed #a1a87f;
+      border-radius: 6px;
+      background-color: #f9f0e5;
+      color: #333;
+    }
+
+    .form-subida button {
+      margin-top: 1em;
+      background-color: #a1a87f;
+      color: #fff;
+      border: none;
+      padding: 0.6em 1.2em;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: "Nunito", sans-serif;
+      font-weight: bold;
+    }
+
+    .form-subida button:hover {
+      background-color: #8b916c;
+    }
+
+    .form-subida ul {
+      margin-top: 1em;
+      text-align: left;
+      font-size: 0.85rem;
+      padding-left: 1em;
+      color: #3a3a3a;
+    }
+
+   
+.seccion-chat {
+      max-width: 500px;
+      margin: 2em auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      padding: 1.5em;
+    }
+
+    .seccion-chat h2 {
+      text-align: center;
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.4rem;
+      color: #3a3a3a;
+    }
+
+    #chat-log {
+      border: 1px solid #a1a87f;
+      border-radius: 8px;
+      height: 200px;
+      overflow-y: auto;
+      padding: 1em;
+      background-color: #fffefb;
+      margin-bottom: 1em;
+      font-size: 0.9rem;
+    }
+
+    .mensaje {
+      margin-bottom: 0.6em;
+    }
+
+    .mensaje.usuario {
+      color: #3a3a3a;
+    }
+
+    form#chat-form {
+      display: flex;
+      gap: 0.5em;
+    }
+
+    form#chat-form input[type="text"] {
+      flex: 1;
+      padding: 0.5em;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+
+    form#chat-form button {
+      background-color: #a1a87f;
+      border: none;
+      color: #fffefb;
+      padding: 0.5em 1em;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    form#chat-form button:hover {
+      background-color: #8b916c;
+    }
+
+.boton-flotante {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color:#a1a87f;
+  color: #fffefb;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-flotante:hover {
+  background-color:#a1a87f;
+}
+
+
+.formulario-contacto input,
+.formulario-contacto textarea,
+.form-subida input[type="file"],
+form#chat-form input[type="text"] {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.formulario-contacto button,
+.form-subida button,
+form#chat-form button {
+  font-size: 1.1rem;
+  padding: 1rem 1.5rem;
+}
+
+
+  @media (min-width: 768px) {
+
+  header {
+    padding: 2rem;
+  }
+#logo {
+    width: 100px;
+    margin-left: 0;
+  }
+  header h1 {
+    font-size: 2rem;
+    text-align: right;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  #alcivar h2 {
+    font-size: 1.2rem;
+  }
+
+  #alcivar img {
+    width: 70px;
+  }
+
+  .main-nav li {
+    width: 130px;
+    font-size: 0.8rem;
+  }
+
+  .main-nav li img {
+    width: 110px;
+  }
+
+  #citas{
+    width: 50%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+  #contacto {
+    width: 20%;
+    font-size: 1rem;
+  }
+
+  #bloque-gato-lista {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  #gato {
+    max-width: 200px;
+  }
+
+  #intro-lista {
+    font-size: 1rem;
+  }
+
+  .info_books, .info_text {
+    font-size: 1rem;
+  }
+
+  
+  #click {
+    font-size: 1rem;
+  }
+
+  #recomendaciones ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0;
+  margin: 0 auto;
+}
+#recomendaciones {
+  text-align: center;
+}
+  .formulario-contacto {
+    padding: 3rem;
+  }
+
+  .form-subida {
+    padding: 2rem;
+  }
+li{
+  font-size: 20px;
+}
+a{
+  font-size: 23px;
+}
+#estante{
+  width: 60%;
+  margin: 0 auto;
+}
+ .formulario-contacto,
+  .form-subida {
+    padding: 2rem;
+    max-width: 90%;
+  }
+
+  .formulario-contacto input,
+  .formulario-contacto textarea,
+  .form-subida input[type="file"],
+  form#chat-form input[type="text"] {
+    font-size: 1.05rem;
+    padding: 0.95rem;
+  }
+
+  .formulario-contacto button,
+  .form-subida button,
+  form#chat-form button {
+    font-size: 1.05rem;
+    padding: 0.95rem 1.3rem;
+  }
+
+  }
+@media (min-width: 1024px) {
+  header {
+    padding: 2.5rem 4rem;
+  }
+
+  #logo {
+    width: 100px;
+    margin-left: 0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  #alcivar h2 {
+    font-size: 1.5rem;
+  }
+
+   p {
+    font-size: 25px;
+  }
+
+  #alcivar img {
+    width: 90px;
+  }
+
+  .main-nav li {
+    width: 150px;
+    font-size: 1rem;
+  }
+
+  .main-nav li img {
+    width: 130px;
+  }
+
+  #citas{
+    width: 50%;
+    font-size: 1.1rem;
+    margin-top: 0em;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+  
+  }
+
+  #citas img {
+  display: block;
+  margin: 0 auto;
+}
+   #contacto {
+    width: 20%;
+    font-size: 1.1rem;
+  }
+
+  #bloque-gato-lista {
+    gap: 3em;
+  }
+
+  #gato {
+    max-width: 250px;
+  }
+
+  #intro-lista {
+    font-size: 1.1rem;
+  }
+
+  .info_books, .info_text {
+    font-size: 1.1rem;
+  }
+
+  #click {
+    font-size: 1.1rem;
+  }
+
+  .formulario-contacto {
+    padding: 4rem;
+  }
+
+  .form-subida {
+    padding: 2.5rem;
+  }
+  .formulario-contacto,
+  .form-subida {
+    padding: 1.5rem;
+    max-width: 95%;
+  }
+
+  .formulario-contacto input,
+  .formulario-contacto textarea,
+  .form-subida input[type="file"],
+  form#chat-form input[type="text"] {
+    font-size: 1rem;
+    padding: 0.9rem;
+  }
+
+  .formulario-contacto button,
+  .form-subida button,
+  form#chat-form button {
+    font-size: 1rem;
+    padding: 0.9rem 1.2rem;
+  }
+
+#recomendaciones ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0;
+  margin: 0 auto;
+}
+
+  ul {
+    list-style-type: disc;
+    margin: 0 auto;
+    padding-inline-start: 0;
+    text-align: center;
+    width: fit-content;
+  }
+}
+.palacios_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.info_palacios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.best_books { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+#sally {
+  width: 400px;
+  height: auto;
+}
+.sally {
+  width: 400px;
+  height: auto;
+}
+.info_books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info_text {
+  text-align: left;
+}
+
+}
+ 

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> RL | Estante Literario</title>
+        <link href="css/estilos.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    </head>
+    <body>
+        <header>
+          <div id="logo">
+            <a href="index.html">
+              <img src="imagenes/logo.png" alt="Logo del sitio" />
+            </a>
+          </div>
+           <h1>Mi selección</h1>
+        </header>
+    
+        <main>
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="sobre_el_rincon.html">
+                  <img src="imagenes/el_rincon.png" alt="Nosotros" />
+                  SOBRE EL RINCÓN
+                </a>
+              </li>
+              <li>
+                <a href="el_estante_literario.html">
+                  <img src="imagenes/el_estante.png" alt="Literatura" />
+                  EL ESTANTE LITERARIO
+                </a>
+              </li>
+              <li>
+                <a href="palacios_literarios.html">
+                  <img src="imagenes/cultura.png" alt="Cultura" />
+                  PALACIOS LITERARIOS
+                </a>
+              </li>
+              <li>
+                <a href="comunidad_del_rincon.html">
+                  <img src="imagenes/comunidad.png" alt="Comunidad literaria" />
+                  COMUNIDAD DEL RINCÓN
+                </a>
+              </li>
+              <li>
+                <a href="mi_propio_estante.html">
+                  <img src="imagenes/mis_libros.png" alt="Mis libros" />
+                  MI PROPIO ESTANTE
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+<body>
+ <section class="form-subida">
+    <h2>Subir Archivos</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="file">Selecciona archivos</label>
+      <input type="file" id="file" name="files" multiple>
+      <button type="submit">Subir</button>
+    </form>
+    <ul id="fileList"></ul>
+  </section>
+
+  <script>
+    const input = document.getElementById('file');
+    const fileList = document.getElementById('fileList');
+
+    input.addEventListener('change', () => {
+      fileList.innerHTML = '';
+      Array.from(input.files).forEach(file => {
+        const li = document.createElement('li');
+        li.textContent = file.name;
+        fileList.appendChild(li);
+      });
+    });
+  </script>
+  
+  <footer>
+      <div id="contacto">
+        <a href="contacto.html">
+          <img src="imagenes/contacto_rincon.png" alt="Contáctanos" />
+        </a>
+      </div>
+      <h4>
+        ¿Tenés alguna sugerencia, o te interesa que publiquemos algún artículo o escrito tuyo?
+      </h4>
+    <div id="contactanos">
+      <a href="contacto.html">
+        ¡No dudes en contactarnos!
+      </a>
+    </div>
+    </footer>
+
+      </body>
+    </html>
+    
+</body>
+</html>
